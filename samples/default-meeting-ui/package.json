@@ -9,12 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@dytesdk/ui-kit": "^1.59.0",
-    "@dytesdk/web-core": "^1.20.0",
+    "@dytesdk/vue-ui-kit": "^1.59.0",
+    "@dytesdk/web-core": "^1.21.0-vue.2",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
     "vite": "^4.2.0"
   }
 }
