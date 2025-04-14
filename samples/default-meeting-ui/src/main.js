@@ -1,8 +1,5 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import { defineCustomElements } from "@dytesdk/ui-kit/loader";
+import { ComponentLibrary } from "@dytesdk/vue-ui-kit";
 
-// NOTE: this defines components so that we can use them in our code.
-defineCustomElements();
-
-createApp(App).mount("#app");
+createApp(App).use(ComponentLibrary).mount("#app");
