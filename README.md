@@ -1,7 +1,7 @@
 # Dyte UI Kit Samples for Vue
 
-
 ## Contents
+
 1. [Introduction](#introduction)
 2. [About This Repository](#about-this-repository)
 3. [Setting Up the Project](#setting-up-the-project)
@@ -11,9 +11,11 @@
 5. [License](#license)
 
 ## Introduction
+
 Dyte is a technology company specializing in real-time communication solutions. Our products are designed to enable seamless and efficient video interactions in various applications, ranging from virtual meetings to interactive live streaming. The offerings are known for their robust performance, scalability, and ease of integration.
 
 ## About this Repository
+
 This repository consists of all the different ways in which you can use Dyte's
 UI Kit and other packages to its full extent to get the best live
 audio/video experience.
@@ -23,6 +25,7 @@ audio/video experience.
 Here are the list of available samples at the moment.
 
 1. [Default Meeting UI](./samples/default-meeting-ui/)
+1. [Default Meeting UI TypeScript](./samples/default-meeting-ts/)
 
 ## Setting Up the Project
 
@@ -85,9 +88,9 @@ http://localhost:5173/?authToken=<your-token>
 ```
 
 ### Contributing
+
 Contributions to enhance the functionality or fix issues are welcome. Please adhere to the project's contribution guidelines and code of conduct.
 
 ### License
+
 This project is released under the [Apache-2](LICENSE). Please review the license terms before using or contributing to the project.
-
-
